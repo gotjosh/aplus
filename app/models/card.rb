@@ -54,6 +54,6 @@ class Card
 
   # Moves a card back to box 1.
   def self.reset(card)
-  	card.update(level: 1)
+  	card.update_attribute(:level, 1)
   end
 end
